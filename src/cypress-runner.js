@@ -106,7 +106,7 @@ const cypressRunner = async function () {
         screenshotsFolder: reportsDir,
         integrationFolder: runCfg.projectPath,
         testFiles: runCfg.match,
-        reporter: "cypress-multi-reporters",
+        reporter: 'cypress-multi-reporters',
         reporterOptions: {
           mochaFile: `${reportsDir}/[suite].xml`,
           configFile: 'src/reporter-config.json'
